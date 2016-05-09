@@ -1,0 +1,14 @@
+Origin: Puppetlabs
+Label: Puppet Enterprise
+Codename: trusty
+Components:
+Architectures: i386 amd64 all
+MD5Sum:
+ 19a23ef9b522aa63496a96a9940b17b5 7483 Packages.gz
+ 2a59a181cc5e531505245cd0fa99f86e 22719 Packages
+SHA1Sum:
+ dda6bdb35c8fdaae62a63f209213c2c679249ac3 7483 Packages.gz
+ 8da3c7efca72ec192a27df0687c036b54c31a55a 22719 Packages
+SHA256Sum:
+ d1434d37084eb2cb0f0c1f7794b814d7a0d09c5803cbb83d80fcd3f5b34d16c0 7483 Packages.gz
+ 4ac3c993d7f454b4fd89e35d57fae50c61ea7fef343435b0681205acf9cc5162 22719 Packages

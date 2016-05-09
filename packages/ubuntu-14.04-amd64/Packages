@@ -1,0 +1,512 @@
+Package: pe-activemq
+Version: 5.13.2-1puppet2
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 42789
+Depends: pe-java
+Conflicts: pe-tanukiwrapper
+Replaces: pe-tanukiwrapper
+Filename: ./pe-activemq_5.13.2-1puppet2_all.deb
+Size: 37883470
+MD5sum: 8f1357e65d362d7b24f4ced8769c9b04
+SHA1: 89878c33e6bc3f171c07bfb8b1647bbbb7e333f6
+SHA256: 88aed608d9e79308a5d96dd806d587264ba8b1e134ac1d7e786d047b4473ae38
+Section: java
+Priority: optional
+Homepage: http://wrapper.tanukisoftware.org/
+Description: Apache ActiveMQ
+ ApacheMQ is a JMS Compliant Messaging System
+
+Package: pe-bundler
+Version: 1.8.2-1puppet3
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 807
+Depends: puppet-agent
+Filename: ./pe-bundler_1.8.2-1puppet3_all.deb
+Size: 154742
+MD5sum: d29f1118e74bb4bb73fe6d99841561bc
+SHA1: 3b8a937add46525d3ed029141c9c6a2fa45e7213
+SHA256: 26cf7e45b7ca79d2c275924e16ab119b6764c88595a2b2489ec856d0feed2ba2
+Section: ruby
+Priority: optional
+Homepage: http://gembundler.com
+Description: Manage Ruby application dependencies
+ Bundler manages a Ruby application's dependencies through its entire
+ life, across many machines, systematically and repeatably.
+ Bundler is most useful for developers of applications.
+
+Package: pe-client-tools
+Version: 1.0.3-1trusty
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 13430
+Depends: puppet-agent
+Conflicts: pe-r10k (<< 2.0.9.0)
+Replaces: pe-r10k (<< 2.0.9.0)
+Filename: ./pe-client-tools_1.0.3-1trusty_amd64.deb
+Size: 2182504
+MD5sum: 85e0479abc196adf33fbb7e43f9865b1
+SHA1: 2903aa1187e9603ab79aa3a6e6ef6b5087e9acbc
+SHA256: 5ee78aa8794e5cae3af808c278dd4a10bb330bf050481d92d0d5c1f5aa2c92e4
+Section: admin
+Priority: optional
+Homepage: https://www.puppetlabs.com
+Description: Client tools for Puppet Enterprise
+  .
+ Contains the following components:
+ leatherman 0.3.7
+ puppet-access 1.0.0-23-g8a333da
+ puppet-code 0.1.0-19-g9caf577
+ puppet-xnode 0.1.0-190-g88313eb
+ rubygem-colored 1.2
+ rubygem-command_line_reporter 3.3.5
+ rubygem-mime-types 1.25.1
+ rubygem-multi_json 1.11.2
+ rubygem-pe-razor-client 1.1.0
+ rubygem-rest-client 1.6.9
+
+Package: pe-console-services
+Version: 1.3.129-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 34310
+Depends: pe-java, pe-puppet-enterprise-release, net-tools, adduser
+Conflicts: pe-certificate-manager (<< 0.9-1puppet1), pe-console (<< 0.9-1puppet1), pe-console-auth (<< 1.9-1puppet1), pe-event-inspector (<< 0.9-1puppet1), pe-libevent (<< 2.9-1puppet1), pe-license-status (<< 0.9-1puppet1), pe-live-management (<< 1.9-1puppet1), pe-memcached (<< 1.9-1puppet1), pe-passenger (<< 5.9-1puppet1), pe-puppet-dashboard (<< 2.9-1puppet1), pe-rubycas-server (<< 1.1.18-1puppet1), pe-rubygem-rack (<< 1.9-1puppet1)
+Replaces: pe-certificate-manager (<< 0.9-1puppet1), pe-console (<< 0.9-1puppet1), pe-console-auth (<< 1.9-1puppet1), pe-event-inspector (<< 0.9-1puppet1), pe-libevent (<< 2.9-1puppet1), pe-license-status (<< 0.9-1puppet1), pe-live-management (<< 1.9-1puppet1), pe-memcached (<< 1.9-1puppet1), pe-passenger (<< 5.9-1puppet1), pe-puppet-dashboard (<< 2.9-1puppet1), pe-rubycas-server (<< 1.1.18-1puppet1), pe-rubygem-rack (<< 1.9-1puppet1)
+Filename: ./pe-console-services_1.3.129-1puppet1_all.deb
+Size: 31454930
+MD5sum: b1499e3afb5ba992b3724f25f909c22a
+SHA1: 8a5e68197855468dd989d086376201f6b42d112c
+SHA256: 44b1f777d28fe67bec4a2b6a17132d4775a1a9820187e5ced339749aecd5a674
+Section: utils
+Priority: optional
+Homepage: http://puppetlabs.com
+Description: Puppet Labs pe-console-services
+ Contains: Release artifacts for console services (clojure 1.8.0,classifier 1.6.33,pe-console-auth-ui 2016.1.8,pe-activity-service 0.4.5,pe-console-ui 2016.1.86,pe-rbac-service 1.1.45,pcp-client 0.2.1,clj-pxp-puppet 0.0.10,ssl-utils 0.8.1,trapperkeeper-status 0.2.2,trapperkeeper-webserver-jetty9 1.5.0,kitchensink 1.2.0,http-client 0.5.0,cheshire 5.5.0,clj-stacktrace 0.2.8,clj-time 0.11.0,clj-yaml 0.4.0,commons-io 2.4,compojure 1.4.0,encore 1.32.0,hiccup 1.0.5,slf4j-api 1.7.13,xz 1.5,tools.logging 0.3.1,schema 1.0.4,ring-headers 0.1.3,slingshot 0.12.2,guava 15.0,java.jdbc 0.4.2,migratus 0.8.8,postgresql 9.4.1207,trapperkeeper 1.2.0,jdbc-util 0.2.0)
+
+Package: pe-console-services-termini
+Source: pe-console-services
+Version: 1.3.129-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 66
+Depends: puppet-agent
+Conflicts: pe-classifier-terminus
+Replaces: pe-classifier-terminus
+Provides: pe-classifier-terminus
+Filename: ./pe-console-services-termini_1.3.129-1puppet1_all.deb
+Size: 3098
+MD5sum: 370c59b0b058a291e104f336e70ce7ff
+SHA1: ec0a3832709fdc91d0a455adb927efe6d92c2035
+SHA256: 43b31269e978995da08419f46b9d905dd9107e555cca7b638335462c6a139c19
+Section: utils
+Priority: optional
+Homepage: http://puppetlabs.com
+Description: Termini for pe-console-services
+ Contains terminus for:
+  pe-classifier (version 1.6.33)
+
+Package: pe-installer
+Version: 2016.1.0.2-1puppet1
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 14403
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), puppet-agent, pe-bundler
+Filename: ./pe-installer_2016.1.0.2-1puppet1_amd64.deb
+Size: 4226956
+MD5sum: d15d169a9475433d11f33a413dd334fa
+SHA1: cd73b7e6643be1a184408b2966cff82fc890521a
+SHA256: 36938d921fe329acd227afd50cc2b9da17f71c6b75b7ee82b3dc181771be1b43
+Section: ruby
+Priority: optional
+Homepage: http://puppetlabs.com/enterprise
+Description: Web based install interview
+
+Package: pe-java
+Version: 1.8.0.91-1puppet1
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 134583
+Depends: pe-puppet-enterprise-release, puppet-agent, libc6 (>= 2.14), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Filename: ./pe-java_1.8.0.91-1puppet1_amd64.deb
+Size: 34819302
+MD5sum: f0cf63b7f323ab370a02ee7b22b6f17d
+SHA1: ed1cc53684689953ec215a4f3183851dd663940b
+SHA256: eef13e1849a8eb3f54bba74e0943f61ba756ab81385203758c5b842889035d6a
+Section: java
+Priority: optional
+Multi-Arch: same
+Homepage: http://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+
+Package: pe-license
+Version: 0.1.5.9-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 64
+Depends: puppet-agent
+Filename: ./pe-license_0.1.5.9-1puppet1_all.deb
+Size: 2664
+MD5sum: bf36b77b6e477ac6b00ec3ad0aba7bc0
+SHA1: e47aeebecb9bdc63ef37b74c5c9b5cbd6edc76af
+SHA256: dd70adb57ae398464cc60add3c93ba966be9b840f7f1345b1e3ff028f5587a10
+Section: ruby
+Priority: optional
+Homepage: http://puppetlabs.com/enterprise
+Description: Library for working with the Puppet Enterprise license and licensing status
+ Library for working with the Puppet Enterprise license and licensing status
+
+Package: pe-nginx
+Version: 1.8.1-1puppet1
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 822
+Depends: libc6 (>= 2.14), libpcre3, puppet-agent, zlib1g (>= 1:1.1.4), lsb-base, adduser, pe-puppet-enterprise-release
+Conflicts: pe-httpd
+Replaces: pe-httpd
+Provides: pe-webserver
+Filename: ./pe-nginx_1.8.1-1puppet1_amd64.deb
+Size: 266170
+MD5sum: afff427ac7d5ed4419cfa5fa9bb24086
+SHA1: e3759a3198b37eea67cc735842781f29d2793c89
+SHA256: 36a451d8da1aa0fdcc50f3305fd1c8a28e9099695ae8b58cabb6dddc0305da6f
+Section: httpd
+Priority: optional
+Homepage: http://nginx.org
+Description: Puppet Enterprise uses the nginx HTTP Server.
+ nginx is an HTTP and reverse proxy server.
+
+Package: pe-orchestration-services
+Version: 0.4.9-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 38815
+Depends: pe-java, pe-puppet-enterprise-release, net-tools, adduser
+Filename: ./pe-orchestration-services_0.4.9-1puppet1_all.deb
+Size: 35099778
+MD5sum: a0980a8679fda7bb0f1d7dbf1d45e273
+SHA1: 08c2e87cd089b6d8dc26158e0efc68a093ef7300
+SHA256: 37e22185974a7d23693098f09b94925da7ad15523b4aa4d0d4c25519abff23c8
+Section: utils
+Priority: optional
+Homepage: http://puppetlabs.com
+Description: Puppet Labs pe-orchestration-services
+ Contains: Release artifacts for orchestration services (pcp-broker 0.6.1,orchestrator 0.4.1,kitchensink 1.2.0,tools.macro 0.1.5)
+
+Package: pe-postgresql
+Version: 9.4.7-1puppet1
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 28029
+Depends: libc6 (>= 2.14), libedit2 (>= 2.11-20080614), libldap-2.4-2 (>= 2.4.7), puppet-agent, zlib1g (>= 1:1.1.4), pe-puppet-enterprise-release
+Filename: ./pe-postgresql_9.4.7-1puppet1_amd64.deb
+Size: 4148560
+MD5sum: eb9a60f7777b7078a0e7e725e75ae83e
+SHA1: 0a8d34a58fe4bae85e70306502fd6df65c95f819
+SHA256: cccb6e0a4fe96ff7385a3b1b59241c702465f530d4eafa1a893bbac7ef1b4994
+Section: database
+Priority: optional
+Homepage: http://www.postgresql.org/
+Description: front-end programs for PostgreSQL
+ This package contains client and administrative programs for
+ PostgreSQL: these are the interactive terminal client psql and
+ programs for creating and removing users and databases.
+ .
+ This is the client package for PostgreSQL. If you install
+ PostgreSQL on a standalone machine, you need the server package
+ postgresql-server, too. On a network, you can install this package on
+ many client machines, while the server package may be installed on
+ only one machine.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: pe-postgresql-contrib
+Source: pe-postgresql
+Version: 9.4.7-1puppet1
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 2142
+Depends: pe-postgresql-server (= 9.4.7-1puppet1), libc6 (>= 2.14), libossp-uuid16, pe-postgresql, puppet-agent, zlib1g (>= 1:1.1.4)
+Suggests: libdbd-pg-perl
+Filename: ./pe-postgresql-contrib_9.4.7-1puppet1_amd64.deb
+Size: 419678
+MD5sum: c487b65cb05c1b5f65131db0326cff4c
+SHA1: 377815869ad141a7773e4f969454d0d08c2bf70d
+SHA256: 3e678639ec496c34205843abc98fcdf49435f4fd765738e65b214f9e1f6008de
+Section: database
+Priority: optional
+Homepage: http://www.postgresql.org/
+Description: additional facilities for PostgreSQL
+ The PostgreSQL contrib package provides several additional features
+ for the PostgreSQL database. This version is built to work with the
+ server package postgresql.  contrib often serves as a testbed for
+ features before they are adopted into PostgreSQL proper:
+ .
+  adminpack      - File and log manipulation routines, used by pgAdmin
+  btree_gist     - B-Tree indexing using GiST (Generalised Search Tree)
+  chkpass        - An auto-encrypted password datatype
+  cube           - Multidimensional-cube datatype (GiST indexing example)
+  dblink         - Functions to return results from a remote database
+  earthdistance  - Operator for computing the distance (in miles) between
+                   two points on the earth's surface
+  fuzzystrmatch  - Levenshtein, metaphone, and soundex fuzzy string matching
+  hstore         - Store (key, value) pairs
+  intagg         - Integer aggregator/enumerator
+  _int           - Index support for arrays of int4, using GiST (benchmark
+                   needs the libdbd-pg-perl package)
+  isn            - type extensions for ISBN, ISSN, ISMN, EAN13 product numbers
+  lo             - Large Object maintenance
+  ltree          - Tree-like data structures
+  oid2name       - Maps OIDs to table names
+  pageinspect    - Inspection of database pages
+  passwordcheck  - Simple password strength checker
+  pg_buffercache - Real time queries on the shared buffer cache
+  pg_freespacemap- Displays the contents of the free space map (FSM)
+  pg_trgm        - Determine the similarity of text based on trigram matching
+  pg_standby     - Create a warm stand-by server
+  pgbench        - TPC-B like benchmark
+  pgcrypto       - Cryptographic functions
+  pgrowlocks     - A function to return row locking information
+  pgstattuple    - Returns the percentage of dead tuples in a table; this
+                   indicates whether a vacuum is required.
+  seg            - Confidence-interval datatype (GiST indexing example)
+  spi            - PostgreSQL Server Programming Interface; 4 examples of
+                   its use:
+                   autoinc    - A function for implementing AUTOINCREMENT/
+                                IDENTITY
+                   insert_username - function for inserting user names
+                   moddatetime - Update modification timestamps
+                   refint     - Functions for implementing referential
+                                integrity (foreign keys).  Note that this is
+                                now superseded by built-in referential
+                                integrity.
+                   timetravel - Re-implements in user code the time travel
+                                feature that was removed in 6.3.
+  tablefunc      - examples of functions returning tables
+  uuid-ossp      - UUID generation functions
+  vacuumlo       - Remove orphaned large objects
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: pe-postgresql-devel
+Source: pe-postgresql
+Version: 9.4.7-1puppet1
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 5418
+Depends: libc6 (>= 2.14), pe-postgresql (= 9.4.7-1puppet1), puppet-agent, libkrb5-dev, comerr-dev
+Filename: ./pe-postgresql-devel_9.4.7-1puppet1_amd64.deb
+Size: 938234
+MD5sum: c3b0d6e0020e28634da155e27bb1cc9e
+SHA1: ae7453b199363178749d12d21673393e07974dfa
+SHA256: 22c3e7026b3c2cba2812fe53c8d885906cc56a1cccc2b5c26d13787ae87947cc
+Section: libdevel
+Priority: optional
+Homepage: http://www.postgresql.org/
+Description: header files and libraries for development with PostgreSQL
+ The pe-postgresql-devel package contains the header files and libraries
+ needed to compile C or C++ applications which will directly interact
+ with a PostgreSQL database management server and the ecpg Embedded C
+ Postgres preprocessor. You need to install this package if you want to
+ develop applications which will interact with a PostgreSQL server.
+
+Package: pe-postgresql-server
+Source: pe-postgresql
+Version: 9.4.7-1puppet1
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 19675
+Depends: libc6 (>= 2.14), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), pe-postgresql (= 9.4.7-1puppet1), puppet-agent, tzdata, locales
+Suggests: oidentd | ident-server
+Filename: ./pe-postgresql-server_9.4.7-1puppet1_amd64.deb
+Size: 3457732
+MD5sum: c12c55d026a9fc3a2b51879eab986927
+SHA1: 2fc1495be222dc059b31884e4d186711ab876133
+SHA256: 9608d15fb5591e638d137f75aea08d990e898948939f1032e9cb977e02b19cea
+Section: database
+Priority: optional
+Homepage: http://www.postgresql.org/
+Description: object-relational SQL database server
+ PostgreSQL is a fully featured object-relational database management
+ system.  It supports a large part of the SQL standard and is designed
+ to be extensible by users in many aspects.  Some of the features are:
+ ACID transactions, foreign keys, views, sequences, subqueries,
+ triggers, user-defined types and functions, outer joins, multiversion
+ concurrency control.  Graphical user interfaces and bindings for many
+ programming languages are available as well.
+ .
+ This package provides the database server for PostgreSQL.
+
+Package: pe-puppet-enterprise-release
+Version: 2016.1.2.0-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 80
+Depends: puppet-agent
+Filename: ./pe-puppet-enterprise-release_2016.1.2.0-1puppet1_all.deb
+Size: 8648
+MD5sum: 773d8492e45e24877c2f69b11de591b1
+SHA1: 68ade611d7df0c96cea6f731dec987c0c810ceea
+SHA256: 1f235854cebe926a27faf25ae39ed44764ede3cd78ba6fada4e2bf9246fb88f0
+Section: admin
+Priority: optional
+Homepage: https://www.puppetlabs.com
+Description: Structure for PE
+    This package provides the basic file structure for Puppet Enterprise,
+    as well as some basic files necessary for PE.
+
+Package: pe-puppet-license-cli
+Version: 0.1.7.20-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 70
+Depends: puppet-agent, pe-license
+Filename: ./pe-puppet-license-cli_0.1.7.20-1puppet1_all.deb
+Size: 3344
+MD5sum: f156a0ea5408c05ceed469ba0d47b2b5
+SHA1: 5e3db4e22e945bdb101ab8c356a2aa2bc6b048df
+SHA256: 55773a7a87ead05a455cb542997db28592d97ebdc1716855fd2c60da81879b79
+Section: ruby
+Priority: optional
+Homepage: http://puppetlabs.com/enterprise
+Description: Command-line application for checking Puppet Enterprise license status
+ Command-line application for checking Puppet Enterprise license status
+
+Package: pe-puppetdb
+Version: 4.0.1-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 26462
+Depends: pe-java, pe-puppet-enterprise-release, net-tools, adduser, puppet-agent
+Filename: ./pe-puppetdb_4.0.1-1puppet1_all.deb
+Size: 22696114
+MD5sum: 193750938455c2c69b96be5c660ef17c
+SHA1: fe5db01a12bc7d8697653f01096b9574fa1b8dbe
+SHA256: fdbb4b0610eb651360ab5deb31289cdfc0cc1bfede2f599a9b2cde3762709623
+Section: utils
+Priority: optional
+Homepage: http://puppetlabs.com
+Description: Puppet Labs pe-puppetdb
+ Contains: Library for replicating PuppetDB instances (puppetdb 4.0.1,pe-puppetdb-extensions 4.0.1)
+
+Package: pe-puppetdb-termini
+Source: pe-puppetdb
+Version: 4.0.1-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 161
+Depends: puppet-agent
+Conflicts: pe-puppetdb-terminus
+Replaces: pe-puppetdb-terminus
+Provides: pe-puppetdb-terminus
+Filename: ./pe-puppetdb-termini_4.0.1-1puppet1_all.deb
+Size: 18244
+MD5sum: 6e5ad6cd547806704427f9aff8bdc01d
+SHA1: 00b80d7f343422a8b4704a4874e6a2799c56c176
+SHA256: 3a34c06a16fe8ea559d81c43dbc1f6c9313defd9b0ee6f58bc4786e322c73f33
+Section: utils
+Priority: optional
+Homepage: http://puppetlabs.com
+Description: Termini for pe-puppetdb
+ Contains terminus for:
+  pe-puppetdb (version 4.0.1)
+
+Package: pe-puppetserver
+Version: 2016.1.1022-1puppet1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 59089
+Depends: pe-java, pe-puppet-enterprise-release, net-tools, adduser, puppet-agent
+Conflicts: pe-puppetserver-common (<< 4.0-1puppet1)
+Replaces: pe-puppetserver-common (<< 4.0-1puppet1)
+Filename: ./pe-puppetserver_2016.1.1022-1puppet1_all.deb
+Size: 53188246
+MD5sum: 761c8dd527c11d35d3456413f6ccd33a
+SHA1: bdb9c6fced1f61296632792328f9b3467903a1db
+SHA256: b0e1c5bdd6b37682e6fa36b60954a009480d87ddd3a1c98ae54f5ee752e71105
+Section: utils
+Priority: optional
+Homepage: http://puppetlabs.com
+Description: Puppet Labs pe-puppetserver
+ Contains: Release artifacts for PE Puppetserver (clojure 1.7.0,tools.reader 1.0.0-alpha1,tools.logging 0.2.6,java.classpath 0.2.2,data.json 0.2.6,clj-time 0.11.0,joda-time 2.8.2,guava 18.0,slf4j-api 1.7.13,commons-codec 1.10,commons-io 2.4,httpclient 4.5.1,httpcore 4.4.4,commons-logging 1.2,compojure 1.4.0,ring 1.4.0,ring-servlet 1.4.0,slingshot 0.12.2,schema 1.0.4,hiccup 1.0.5,versioneer 0.2.0,snakeyaml 1.13,jackson-core 2.5.4,logback-core 1.1.3,logback-classic 1.1.3,logback-access 1.1.3,kitchensink 1.3.0,comidi 0.3.1,ssl-utils 0.8.1,ring-middleware 0.2.2,typesafe-config 0.1.5,pe-file-sync 0.1.11,http-client 0.5.0,trapperkeeper 1.3.1,trapperkeeper-status 0.3.1,pe-puppet-server-extensions 2016.1.1017,code-manager 1.2.5,trapperkeeper-webserver-jetty9 1.5.6)
+
+Package: pe-r10k
+Version: 2.2.2.0-1trusty
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 22690
+Depends: puppet-agent, pe-client-tools
+Filename: ./pe-r10k_2.2.2.0-1trusty_amd64.deb
+Size: 4631634
+MD5sum: 44546b642efdf43776bc48d0f4fd4d61
+SHA1: 9fbbbb5ce10ae5b22940391966acfd31374e699f
+SHA256: 2eab4f4d00e95f24ed12825313486c4d88ddf92eecbbbe65a59f60ecb275368b
+Section: admin
+Priority: optional
+Homepage: https://www.puppetlabs.com
+Description: R10k for Puppet Enterprise
+  .
+ Contains the following components:
+ libgit2 0.21.5
+ libssh2 1.7.0
+ r10k-yaml-example 0.0.1
+ rubygem-cri 2.6.1
+ rubygem-faraday 0.9.1
+ rubygem-faraday_middleware 0.9.1
+ rubygem-faraday_middleware-multi_json 0.0.6
+ rubygem-log4r 1.1.10
+ rubygem-minitar 0.5.4
+ rubygem-multi_json 1.11.0
+ rubygem-multipart-post 2.0.0
+ rubygem-puppet_forge 2.1.5
+ rubygem-r10k 2.2.2
+ rubygem-rugged 0.21.4
+ rubygem-semantic_puppet 0.1.0
+
+Package: puppet-agent
+Version: 1.4.2-1trusty
+Architecture: amd64
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 73442
+Depends: tar, libreadline6
+Breaks: cfacter (<< 0.5.0), facter (<< 3.0.0), hiera (<< 2.0.0), mcollective (<< 3.0.0), mcollective-client (<< 3.0.0), mcollective-common (<< 3.0.0), mcollective-doc, pe-agent, pe-augeas, pe-cloud-provisioner, pe-cloud-provisioner-libs, pe-facter, pe-hiera, pe-libldap, pe-libyaml, pe-mcollective, pe-mcollective-client, pe-mcollective-common, pe-openssl, pe-puppet, pe-puppet-enterprise-release (<< 4.0.0), pe-puppetserver-common (<< 4.0.0), pe-ruby, pe-ruby-augeas, pe-ruby-ldap, pe-ruby-mysql, pe-ruby-rgen, pe-ruby-shadow, pe-ruby-stomp, pe-rubygem-deep-merge, pe-rubygem-gem2rpm, pe-rubygem-net-ssh, pe-rubygems, pe-virt-what, puppet (<< 4.0.0), puppet-common (<< 4.0.0)
+Replaces: cfacter (<< 0.5.0), facter (<< 3.0.0), hiera (<< 2.0.0), mcollective (<< 3.0.0), mcollective-client (<< 3.0.0), mcollective-common (<< 3.0.0), mcollective-doc, pe-agent, pe-augeas, pe-cloud-provisioner, pe-cloud-provisioner-libs, pe-facter, pe-hiera, pe-libldap, pe-libyaml, pe-mcollective, pe-mcollective-client, pe-mcollective-common, pe-openssl, pe-puppet, pe-puppet-enterprise-release (<< 4.0.0), pe-puppetserver-common (<< 4.0.0), pe-ruby, pe-ruby-augeas, pe-ruby-ldap, pe-ruby-mysql, pe-ruby-rgen, pe-ruby-shadow, pe-ruby-stomp, pe-rubygem-deep-merge, pe-rubygem-gem2rpm, pe-rubygem-net-ssh, pe-rubygems, pe-virt-what, puppet (<< 4.0.0), puppet-common (<< 4.0.0)
+Provides: cfacter, facter, hiera, mcollective, mcollective-client, mcollective-common, puppet, puppet-common
+Filename: ./puppet-agent_1.4.2-1trusty_amd64.deb
+Size: 14242578
+MD5sum: d04fe5bc0f9e71b6c947ccf768759518
+SHA1: e1f1cf4bc40ec34517a60d2081981e4584e7e936
+SHA256: efdc9f5af1452f733020c57d06fa139fcaf36e0f120ffa097c564df145242aec
+Section: admin
+Priority: optional
+Homepage: https://www.puppetlabs.com
+Description: The Puppet Agent package contains all of the elements needed to run puppet, including ruby, facter, hiera and mcollective.
+  .
+ Contains the following components:
+ augeas 1.4.0
+ cpp-pcp-client 1.1.2
+ curl 7.46.0
+ dmidecode 2.12
+ facter 3.1.6
+ hiera 3.1.2
+ leatherman 0.6.2
+ libxml2 2.9.3
+ libxslt 1.1.28
+ marionette-collective 2.8.8
+ openssl 1.0.2g
+ puppet 4.4.2
+ puppet-ca-bundle 1.0.7
+ pxp-agent 1.1.2
+ ruby 2.1.8
+ ruby-augeas 0.5.0
+ ruby-shadow 2.3.3
+ ruby-stomp 1.3.3
+ rubygem-deep-merge 1.0.1
+ rubygem-hocon 0.9.3
+ rubygem-net-ssh 2.9.2
+ shellpath 2015-09-18
+ virt-what 1.1.4
+
